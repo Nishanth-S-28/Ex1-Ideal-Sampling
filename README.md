@@ -95,6 +95,8 @@ reconstructed_signal = resample(signal_sampled, len(t))
 
 # Create subplots
 plt.figure(figsize=(12, 8))
+plt.suptitle("NAME : NISHANTH S\nREG NO : 212224060175",
+             fontsize=12, fontweight='bold')
 
 # 1. Continuous Signal
 plt.subplot(3,1,1)
@@ -177,6 +179,9 @@ reconstructed_signal = lowpass_filter(reconstructed_signal, 10, fs)
 
 plt.figure(figsize=(14, 10))
 
+plt.suptitle("NAME : NISHANTH S\nREG NO : 212224060175",
+             fontsize=12, fontweight='bold')
+
 # Original Message Signal
 plt.subplot(4, 1, 1)
 plt.plot(t, message_signal, label='Original Message Signal')
@@ -243,6 +248,9 @@ reconstructed_signal = lowpass_filter(flat_top_signal, cutoff_freq, fs)
 
 plt.figure(figsize=(14, 10))
 
+plt.suptitle("NAME : NISHANTH S\nREG NO : 212224060175",
+             fontsize=12, fontweight='bold')
+
 plt.subplot(4, 1, 1)
 plt.plot(t, message_signal, label='Original Message Signal')
 plt.title('Original Message Signal')
@@ -281,16 +289,16 @@ plt.show()
 
 ## Ideal Sampling
 
-<img width="1189" height="790" alt="dc ideal" src="https://github.com/user-attachments/assets/a6431134-6afd-46af-a7ae-bf76285c894b" />
+<img width="1189" height="789" alt="image" src="https://github.com/user-attachments/assets/6e54e3d9-72d4-4a60-af4a-df730015bfde" />
 
 ## Natural Sampling
 
-<img width="1390" height="989" alt="dc natural" src="https://github.com/user-attachments/assets/2f2c2e99-46c2-4e89-89d8-9bda85289aaa" />
+<img width="1390" height="985" alt="image" src="https://github.com/user-attachments/assets/24a3baaf-a6e3-409b-9dc7-d3a39407234d" />
 
 
 ## Flat-top Sampling
 
-<img width="1398" height="990" alt="dc flat" src="https://github.com/user-attachments/assets/fdba9be6-bd39-4e8a-9a54-e7c2428204f1" />
+<img width="1398" height="985" alt="image" src="https://github.com/user-attachments/assets/f1d56bfe-0cbd-4ca7-a967-78a9d98c9fdf" />
 
 
 
